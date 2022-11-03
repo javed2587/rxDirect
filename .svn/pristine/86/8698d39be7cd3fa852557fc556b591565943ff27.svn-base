@@ -1,0 +1,6 @@
+@media all and (max-width:400px){
+.main_container h2{
+font-size: 26px;
+line-height: 31px;
+}    
+} 

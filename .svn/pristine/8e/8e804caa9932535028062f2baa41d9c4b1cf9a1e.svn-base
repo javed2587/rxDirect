@@ -1,0 +1,31 @@
+dataSource.driverClassName=com.mysql.jdbc.Driver
+
+
+######################Dev######################
+dataSource.url=jdbc:mysql://rxdirectdev.ssasoft.com:3306/rxdev_DirectRx?zeroDateTimeBehavior=convertToNull
+dataSource.username=rxdev_user
+dataSource.password=QvRMS9LCvdUW
+hibernate.c3p0.min_size = 5
+hibernate.c3p0.max_size = 20
+
+########################LOCAL######################
+#dataSource.url=jdbc:mysql://localhost:3306/rxdev_directrx?zeroDateTimeBehavior=convertToNull
+#dataSource.username=root
+#dataSource.password=
+#hibernate.c3p0.min_size = 2
+#hibernate.c3p0.max_size = 5
+
+########################TESTING######################
+#dataSource.url=jdbc:mysql://192.168.100.240:3306/rxdev_directrx?zeroDateTimeBehavior=convertToNull
+#dataSource.username=root
+#dataSource.password=ssasoft.com
+#hibernate.c3p0.min_size = 2
+#hibernate.c3p0.max_size = 5
+
+
+
+hibernate.dialect = org.hibernate.dialect.MySQLDialect
+hibernate.show_sql = false
+
+hibernate.c3p0.max_statements = 100
+hibernate.c3p0.idle_test_period = 100
